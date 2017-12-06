@@ -1,0 +1,34 @@
+input[name=pencarian]{
+    width: 320px;
+    display: inline-block;
+}
+.form-cari{
+	margin: 20px;
+}
+.title-heading{
+	text-align: center;
+	margin: 20px;
+	margin-top: 40px;
+}
+.form-sort{
+	display: inline-block;
+}
+.pencarian{
+	text-align: center;
+}
+.isi{
+	margin: 30px;
+}
+.isi h2{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.img_item{
+	margin: 0 auto;
+	display: block;
+}
+.ulasan{
+	background-color: #ededed;
+	padding: 20px;
+	border-radius: 15px;
+}
