@@ -1,0 +1,113 @@
+body {
+  padding-top: 5rem;
+  background-color: #e7e7e7;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.shadow-box{
+	background-color: white;
+	width: 100%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 10px;
+	display: inline-block;
+	margin: 15px;
+}
+.identity{
+	max-width: 20%;
+	display: inline-block;
+	padding: 5px;
+	vertical-align: top;
+}
+.identity .img{
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+}
+.identity-text{
+	padding: 5px;
+}
+.forum-box-title{
+	/*max-width: 70%;*/
+	display: inline-block;
+	padding-left: 20px;
+	padding-top: 15px;
+	vertical-align: top;
+}
+.forum-box-title p{
+	color: grey;
+}
+.forum-detail{
+	display: inline-block;
+	text-align: center;
+	/*padding: 20px;*/
+	/*max-width: 15%;*/
+	float: right;
+}
+.forum-category span{
+	padding: 5px;
+	background-color: grey;
+	color: white;
+	margin: 2px;
+}
+.forum-view{
+	display: inline-block;
+}
+.forum-view span{
+	display: inline-block;
+}
+.vote{
+	display: inline-block;
+}
+.forum-ans{
+	display: inline-block;
+	font-size: 15px;
+	color: grey;
+}
+
+.kotak-cari{
+	margin-right: 10px;
+	margin-bottom: 10px;
+	/*margin-top: 10px;*/
+}
+.kotak-cari button{
+	position: relative;
+	float: right;
+	margin-top: -38px;
+}
+
+.itemforum-desc {
+	font-size: 15px;
+	padding: 15px;
+	padding-bottom: 0
+}
+.itemforum-author .img{
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	display: inline-block;
+}
+.itemforum-author{
+	padding: 10px;
+	width: auto;
+	background-color: #e7e7e7;
+	display: inline-block;
+	float: right;
+}
+.itemforum-author-text{
+	display: inline-block;
+	padding: 10px;
+}
+.itemforum-cat{
+	display: block;
+	margin-bottom: 20px;
+}
+.itemforum-votes{
+	float: left;
+}
+
+.itemforum-answer{
+	clear: both;
+}

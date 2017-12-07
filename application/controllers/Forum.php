@@ -7,7 +7,19 @@ class Forum extends CI_Controller {
 	}
 
 	public function index(){
+		$this->load->view('forum/header');
 		$this->load->view('forum/list_forum');
+		$this->load->view('forum/footer');
+	}
+	public function ask(){
+		$this->load->view('forum/header');
+		$this->load->view('forum/asking_new');
+		$this->load->view('forum/footer');	
+	}
+	public function item(){
+		$this->load->view('forum/header');
+		$this->load->view('forum/forum_item');
+		$this->load->view('forum/footer');		
 	}
 	public function view_forum(){
 		$getter = $this->forum->getAllData('nama tabel'); //return array object
