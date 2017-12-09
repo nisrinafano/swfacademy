@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>SWF Forum</title>
+    <title><?= $title; ?></title>
 
     <!-- Bootstrap core CSS -->
 
@@ -15,8 +15,16 @@
 
     <!-- Custom styles for this template -->
     <link href="<?= base_url()?>assets/css/forum.css" rel="stylesheet">
+    <link href="<?= base_url();?>assets/css/bootstrap-tagsinput.css" rel="stylesheet">
 
     <link href="<?= base_url();?>assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <script src='https://cloud.tinymce.com/stable/tinymce.min.js'></script>
+    <script>
+      tinymce.init({
+        selector: '#text-answer'
+      });
+    </script>
+
   </head>
 
   <body>
@@ -31,8 +39,8 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="kotak-cari" >
-              <form method="post" action="#">
-                <input class="form-control" placeholder="Looking for a topics?" type="text" name="">
+              <form method="post" action="<?= base_url().'forum/search'?>">
+                <input class="form-control" placeholder="Looking for a topics?" type="text" name="search-term">
                 <button class="btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i>
                 </button>
               </form>
