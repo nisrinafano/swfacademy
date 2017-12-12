@@ -158,6 +158,7 @@ class Forum extends CI_Controller {
 			'tags' => $this->input->post('forum-tags'),
 			'title_slug' => $generate_slug
 			);
+		
 		if ($this->form_validation->run()) {
 			$query_action = $this->forum->insert($inserted_data, 'forum_topic');
 			if ($query_action) {

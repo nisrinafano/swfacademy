@@ -10,7 +10,7 @@
 		    <textarea id="text-answer" placeholder="Provide us an explaintation, we don't understand" class="form-control" name="forum-content"></textarea>
 		  </div>
 		  <div class="form-group"><label>Tags</label>
-		  	<input class="form-control" type="text" name="forum-tags" placeholder="separate with commas" data-role="tagsinput">
+		  	<input class="form-control" type="text" name="forum-tags" placeholder="separate with commas" data-role="tagsinput" required="">
 		  </div>
 		  <div class="form-check">
 		    <label class="form-check-label">
